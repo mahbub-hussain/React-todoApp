@@ -1,0 +1,60 @@
+.todoapp {
+  width: 600px;
+  margin: 0 auto;
+}
+.todoapp form {
+  margin: 0 auto;
+}
+.todoapp input {
+  margin: 5px;
+  padding: 7px;
+  border-radius: 4px;
+  border: 1px solid #deb887;
+  box-shadow: 0px 0px 5px 0px #d2b48d;
+  outline: none;
+  font-size: 20px;
+  background: whitesmoke;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  width: 400px;
+  text-transform: capitalize;
+}
+.todoapp form button {
+  padding: 6px;
+  font-size: 20px;
+  border-radius: 4px;
+  border: 2px solid #ffbd01;
+  cursor: pointer;
+  color: #5a3403;
+  background: darkgoldenrod;
+  outline: none;
+}
+.todoapp ul {
+  padding: 0;
+  width: 416px;
+  margin: 5px;
+}
+.todoapp ul li {
+  padding: 8px 7px;
+  border-radius: 5px;
+  margin: 5px 0;
+  background: #bfbfbf;
+  text-transform: capitalize;
+  list-style-type: none;
+  font-size: 20px;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+}
+.todoapp ul li > button {
+  padding: 6px;
+  font-size: 20px;
+  border-radius: 4px;
+  border: 2px solid #a79f8b;
+  cursor: pointer;
+  color: #920404;
+  background: #b9b3a4;
+  outline: none;
+  float: right;
+  margin-top: -8px;
+  border-left: 8px solid #9a7e7e;
+  margin-right: -6px;
+  border-right: 8px solid #9a7e7e;
+}
